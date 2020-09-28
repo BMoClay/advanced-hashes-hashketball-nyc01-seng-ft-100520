@@ -195,7 +195,7 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
-  big_shoes = 10 
+  big_shoes = 8 
   game_hash.each do |key, value|
   
     value[:players].each do |inner_value|
@@ -203,8 +203,7 @@ def big_shoe_rebounds
          #binding.pry
         inner_value[:shoe] = big_shoes
      end
-     #big_shoes
-   end
+    end
    #binding.pry
        #value[:players].each do |inner_value|
        #if inner_value[:shoe] == big_shoes
