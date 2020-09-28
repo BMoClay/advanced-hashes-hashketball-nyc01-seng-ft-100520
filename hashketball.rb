@@ -203,6 +203,7 @@ def big_shoe_rebounds
          #binding.pry
         inner_value[:shoe] = big_shoes
      end
+     big_shoes
    end
    binding.pry
      #big_shoes
