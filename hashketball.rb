@@ -199,7 +199,7 @@ def big_shoe_rebounds
   game_hash.each do |key, value|
   
     value[:players].each do |inner_value|
-       if inner_value[:shoe] > big_shoes
+       if inner_value[:shoe] >= big_shoes
          #binding.pry
         inner_value[:shoe] = big_shoes
      end
