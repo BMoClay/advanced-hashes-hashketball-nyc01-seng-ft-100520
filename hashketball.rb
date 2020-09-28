@@ -208,6 +208,6 @@ def big_shoe_rebounds
         if inner_value[:shoe] == big_shoes
          return inner_value[:rebounds]
       #end
-    #end
+    end
   end 
 end
