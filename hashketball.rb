@@ -171,13 +171,11 @@ def player_numbers(team_name)
   game_hash.each do |key, value|
     value.each do |inner_key,inner_value|
     if inner_value == team_name
-      #binding.pry
+     
       value[:players].each do |inner_inner_key|
-        #binding.pry
+        
         jersey_numbers << inner_inner_key[:number]
-        binding.pry
-      #end
-        #jersey_numbers << [:number]
+      
       end
       end
     end
