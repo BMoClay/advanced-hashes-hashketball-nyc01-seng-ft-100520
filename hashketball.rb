@@ -188,10 +188,21 @@ def player_stats(player)
    game_hash.each do |key, value|
     value[:players].each do |inner_value|
       if inner_value[:player_name] == player
-            #binding.pry
-            return inner_value
+        return inner_value
       end
     end
-    #stats
   end 
 end
+
+def big_shoe_rebounds
+  big_shoes = 10 
+  game_hash.each do |key, value|
+    value[:players].each do |inner_value|
+      binding.pry
+      #if inner_value(big_shoes) > 
+       # return inner_value[:shoe]
+      #end
+    end
+  end 
+end
+  
