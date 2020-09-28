@@ -176,8 +176,8 @@ def player_numbers(team_name)
         #if inner_inner_keys == [:number]
         #jersey_numbers << [:number]
       #end
-      #end
-    #end
+      end
+    end
   end 
   jersey_numbers 
 end
