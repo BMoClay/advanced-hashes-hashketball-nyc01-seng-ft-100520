@@ -188,7 +188,7 @@ def player_stats(player)
    game_hash.each do |key, value|
     value[:players].each do |inner_value|
       if inner_value[:player_name] == player
-            stats  << inner_value
+            inner_value
       end
     end
     stats
