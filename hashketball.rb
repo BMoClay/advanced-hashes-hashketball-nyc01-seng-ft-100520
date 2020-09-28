@@ -173,6 +173,7 @@ def player_numbers(team_name)
     if inner_value == team_name
       #binding.pry
       value[:players].each do |inner_inner_keys, inner_inner_values|
+        binding.pry
         #if inner_inner_keys == [:number]
         #jersey_numbers << [:number]
       end
