@@ -201,7 +201,7 @@ def big_shoe_rebounds
       #binding.pry
       if inner_value[:shoe] > big_shoes
        big_shoes = inner_value[:shoe]
-      
+      binding.pry
       end
     end
   end 
