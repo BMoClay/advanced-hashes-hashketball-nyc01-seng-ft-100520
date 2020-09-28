@@ -176,7 +176,7 @@ def player_numbers(team_name)
         #binding.pry
         #if inner_inner_key == [:number]
         binding.pry
-      end
+      #end
         #jersey_numbers << [:number]
       end
       end
