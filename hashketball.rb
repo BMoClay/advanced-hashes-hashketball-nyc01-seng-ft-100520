@@ -177,7 +177,7 @@ def player_numbers(team_name)
         #jersey_numbers << [:number]
       #end
       #end
-    end
+    #end
   end 
   jersey_numbers 
 end
