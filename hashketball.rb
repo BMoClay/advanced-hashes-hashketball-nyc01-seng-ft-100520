@@ -169,6 +169,7 @@ end
 def player_numbers(team_name)
   jersey_numbers = []
   game_hash.each do |key, value|
+    binding.pry
   #value.each do |inner_key,inner_value|
     #if inner_value == team_name
       #binding.pry
