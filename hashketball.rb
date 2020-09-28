@@ -189,8 +189,9 @@ def player_stats(player)
     value[:players].each do |inner_value|
       if inner_value[:player_name] == player
         binding.pry
-        return inner_value[:shoe]
+        #return inner_value[:shoe]
       end
     end
+    stats
   end 
 end
