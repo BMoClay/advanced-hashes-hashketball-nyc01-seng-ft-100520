@@ -203,13 +203,13 @@ def big_shoe_rebounds
         inner_value[:shoe] = big_shoes
      end
    end
-      #binding.pry
+     big_shoes
       value[:players].each do |inner_value|
-        if inner_value[:shoe] == big_shoes
+        #if inner_value[:shoe] == big_shoes
        # if inner_value[:shoe] == big_shoes
          #return inner_value[:rebounds]
          binding.pry
-      end
+      #end
      end
   end 
 end
