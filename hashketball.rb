@@ -171,11 +171,11 @@ def player_numbers(team_name)
   game_hash.each do |key, value|
     value.each do |inner_key,inner_value|
     if inner_value == team_name
-      binding.pry
-      #value[:players].each do |inner_inner_keys, inner_inner_values|
+      #binding.pry
+      value[:players].each do |inner_inner_keys, inner_inner_values|
         #if inner_inner_keys == [:number]
         #jersey_numbers << [:number]
-      #end
+      end
       end
     end
   end 
